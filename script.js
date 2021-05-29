@@ -1,3 +1,4 @@
+
 let money = 123000;
 let income = "freelance";
 let addExpenses = "Internet,Taxi,Food,Communal Apartment";
