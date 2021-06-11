@@ -24,9 +24,6 @@ switch(lang){
 
 console.log(daysOfweek[lang]);
 let namePerson = prompt("Введите ваше имя!");
-let check1 = namePerson === 'Артем' ? 'Директор' : '';
-let check2 = namePerson === 'Максим' ? 'Преподаватель' : '';
-let check3 = namePerson !='Максим' && namePerson != 'Артем' ? 'Студент' : '';
 
-console.log(check1, check2, check3);
+console.log(namePerson === 'Артем' ? 'Директор' : namePerson === 'Максим' ? 'Преподаватель' : 'Студент');
 
