@@ -78,6 +78,7 @@ function getStatusIncome(budgetDay){
     return("Что то пошло не так");
   }
 }
+
 console.log('budgetDay: ', budgetDay);
 console.log(getTargetMonth(accumulatedMonth, mission));
 console.log(showTypeOf(money));
