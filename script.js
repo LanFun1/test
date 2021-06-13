@@ -12,6 +12,7 @@ function random() {
 
 
 
+
 function startGame(){
   let userNumb = prompt("Введите число!");
   let number = random();
