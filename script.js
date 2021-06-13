@@ -4,7 +4,7 @@ let mission = 1000000;
 let isNumber = function(n) {
   return !isNaN(parseFloat(n)) && isFinite(n);
 };
-let money;
+let money;    
 let addExpenses = prompt("Перечислите возможные расходы за рассчитываемый п ериод через запятую");
 let deposit = confirm("Есть ли у вас депозит в банке?");
 let costs = [];
@@ -88,3 +88,4 @@ console.log(showTypeOf(accumulatedMonth));
 console.log(addExpenses = addExpenses.split(','));
 console.log(getStatusIncome(budgetDay));
 
+alert("hello");
